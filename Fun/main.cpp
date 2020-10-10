@@ -4,10 +4,15 @@ int main()
 {
     int x;
     std::cin >> x;
-    std::cout << x << std::endl;
-    if (x%2==0)std::cout<<"Your number is even.";
-    else std::cout<<"Your number is odd.";
-
+    while (x%2==1)
+    {
+        for (int i=0; i<=20; i++)
+        {
+            x-=1;
+            x=x+i;
+            std::cout << x << std::endl;
+        }
+    }
 
 
     return 0;
