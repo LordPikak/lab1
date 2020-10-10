@@ -1,14 +1,10 @@
 #include <iostream>
-
+#include <math.h>
 int main()
 {
-    int x;
-    std::cin >> x;
-    std::cout << x << std::endl;
-    if (x%2==0)std::cout<<"Your number is even.";
-    else std::cout<<"Your number is odd.";
-
-
-
+    for (int i=0; i<=360; i++)
+    {
+        std::cout << i << " " << sin(i) <<std::endl;
+    }
     return 0;
 }
