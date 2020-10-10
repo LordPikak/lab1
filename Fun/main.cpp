@@ -2,12 +2,15 @@
 
 int main()
 {
-    int x;
-    std::cin >> x;
-    std::cout << x << std::endl;
-    if (x%2==0)std::cout<<"Your number is even.";
-    else std::cout<<"Your number is odd.";
-
+    int a,b,c,x;
+    std::cout << "Please input a: ";
+    std::cin >> a;
+    std::cout << "Please input b: ";
+    std::cin >> b;
+    std::cout << "Please input c: ";
+    std::cin >> c;
+    x=(c-b)/a;
+    std::cout << "Your solution is: " << x;
 
 
     return 0;
