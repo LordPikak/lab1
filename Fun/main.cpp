@@ -2,9 +2,13 @@
 #include <math.h>
 int main()
 {
-    for (int i=0; i<=360; i++)
+    int poggers[5]={2,3,7,17,21};
+    int i=0;
+    while (i<6)
     {
-        std::cout << i << " " << sin(i) <<std::endl;
+        poggers[i]+=i;
+        std::cout << poggers[i] << std::endl;
+        i++;
     }
-    return 0;
+return 0;
 }
